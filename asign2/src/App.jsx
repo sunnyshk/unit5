@@ -5,6 +5,7 @@ import './App.css'
 function App() {
   const data = ["Android","Blackberry","iPhone","Windows Phone"];
   const data2 = ["Samsung", "HTC", "Micromax", "Apple"]
+  let nav = ["Services","Project","About"]
   return (
   <div className="App">
     <h1>Mobile Operating System</h1>
@@ -23,7 +24,22 @@ function App() {
          ))
         }
       </ul>
+
+      <div className="nav">
+        <h1>JUNED</h1>
+        <div className="flex">
+          <ul>
+            {
+              nav.map((e)=>(
+                <li>{e}</li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
   </div>
+
+  
   )
 }
 
