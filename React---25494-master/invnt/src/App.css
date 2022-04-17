@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+.items > span{
+  width: 100px;
+ }
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+
+.circlularButton {
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
